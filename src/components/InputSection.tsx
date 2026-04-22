@@ -80,7 +80,7 @@ export const InputSection = ({ inputs, setInputs, lang, liveMode, setLiveMode, o
         currentPrice: data.current_price ?? inputs.currentPrice,
         sharesOutstanding: data.shares_outstanding ?? inputs.sharesOutstanding,
         baseFCF: data.free_cash_flow ?? inputs.baseFCF,
-        industry: data.industry ?? inputs.industry,
+        industry: mapYahooIndustry(data.industry ?? null),
         netDebt: data.net_debt ?? inputs.netDebt,
         beta: data.beta ?? inputs.beta,
       });
