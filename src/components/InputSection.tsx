@@ -16,6 +16,7 @@ import { TOOLTIPS, t, type Lang } from "@/lib/i18n";
 import { formatNumber, formatPercent } from "@/lib/formatters";
 import { supabase } from "@/integrations/supabase/client";
 import { toast } from "sonner";
+import { mapYahooIndustry } from "@/lib/industryMapper";
 
 interface Props {
   inputs: DCFInputs;
