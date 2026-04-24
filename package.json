@@ -1,5 +1,4 @@
-
-  {
+{
   "name": "DCF_valuation_tool",
   "private": true,
   "version": "0.0.0",
@@ -16,8 +15,6 @@
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest"
-  }
-
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
